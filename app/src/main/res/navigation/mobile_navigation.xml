@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_marque">
+
+    <fragment
+        android:id="@+id/nav_marque"
+        android:name="com.mahjour.marquemachine.fragment_marque"
+        android:label="@string/menu_machines"
+        tools:layout="@layout/fragment_fragment_marque" />
+    <fragment
+        android:id="@+id/nav_statistique"
+        android:name="com.mahjour.marquemachine.fragment_statistiques"
+        android:label="@string/menu_graphes"
+        tools:layout="@layout/fragment_fragment_statistiques" />
+
+
+</navigation>
